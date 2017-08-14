@@ -25,7 +25,7 @@ repositories {
 	mavenCentral()
 }
 
-
+println 'A message which is logged at QUIET level'
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jersey')
 	compile('org.projectlombok:lombok:1.16.6')
